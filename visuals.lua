@@ -6,7 +6,7 @@
     RightControl hides/shows the UI.
 ]]
 
-local WindUI = loadstring(readfile("panelui.lua"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/furqwk/realvis/refs/heads/main/lib.lua"))()
 
 local Window = WindUI:CreateWindow({
     Title = "Spawner",
